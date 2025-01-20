@@ -1,4 +1,3 @@
-
 /* media queries for small devices  */
 @media screen and (max-width: 576px) {
 
@@ -12,29 +11,53 @@
         display: block;
         width: 30px;
         height: auto;
-        /* height: 30px;
-     */
     }
-    .nav-container{
-        border: 0.5px solid rgb(254, 163, 1);
+
+    .nav-container {
+        border-bottom: 0.5px solid rgb(254, 163, 1);
         padding: 12px 16px;
+        width: auto;
     }
-    .btn-container{
+
+    .btn-container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     /* banner section */
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
         margin-top: 20px;
         justify-content: center;
         align-items: center;
     }
-    .banner-content{
+
+    .banner-content {
         text-align: center;
     }
-}          
+
+    /* curriculum section  */
+    .curriculum-title {
+        margin-bottom: 30px;
+    }
+
+    .curriaulum-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .curriculam-card {
+        width: auto;
+        margin: 10px 30px;
+    }
+
+    .c-buton {
+        display: none;
+    }
+}
 
 
 
@@ -42,16 +65,31 @@
 
 /* media queries for medium devices  */
 @media screen and (min-width: 557px) and (max-width: 992px) {
-    .nav-title{
+    .nav-title {
         display: none;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         margin-top: 20px;
         justify-content: center;
         align-items: center;
     }
-    .banner-content{
+
+    .banner-content {
         text-align: center;
+    }
+
+    .curriaulum-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculam-card {
+        margin-bottom: 20px;
+        /* width: auto; */
+        margin: 10px 30px;
     }
 }
