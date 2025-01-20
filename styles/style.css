@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header,
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-sky-blue {
+    color: skyblue;
+}
+
+.text-light {
+    color: rgb(5, 212, 223);
+}
+
+.text-purple {
+    color: rgb(93, 88, 239);
+}
+
+.text-title-color {
+    color: rgb(1, 172, 253);
+}
+
+.btn-primary {
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: rgb(17, 17, 17);
+    padding: 10px 50px;
+    border: none;
+}
+
+/* header section styles are here */
+/* nav section */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-t-l-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .nav-t-l-container img {
+    width: 100%;
+} */
+
+.anchor-container ul {
+    display: flex;
+    gap: 32px;
+}
+
+.anchor-container li {
+    list-style: none;
+}
+
+.anchor-container a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-title {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.btn-nav {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+}
+
+.navi-bar {
+    display: none;
+}
+
+/* banner section styles  */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid darkblue; */
+}
+
+.banner-content {
+    align-content: center;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
