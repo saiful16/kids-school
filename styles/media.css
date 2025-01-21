@@ -102,6 +102,9 @@
         top: 93px;
         left: 10px;
     }
+    .s-b-container{
+        padding-bottom: 30px;
+    }
     /* footer */
     .footer-container{
         grid-template-columns: 1fr;
