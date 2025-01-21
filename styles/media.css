@@ -81,7 +81,7 @@
     }
 
     .stories-card {
-        width: 173.09px;
+       width: 173.09px;
         height: 179.59px;
         justify-self: center;
 
@@ -102,6 +102,7 @@
         top: 93px;
         left: 10px;
     }
+    /* footer */
     .footer-container{
         grid-template-columns: 1fr;
         margin-left: 30px;
@@ -114,7 +115,7 @@
 
 
 /* media queries for medium devices  */
-@media screen and (min-width: 557px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
     .nav-title {
         display: none;
     }
@@ -187,7 +188,11 @@
         top: 170px;
         left: 10px;
     }
+    /* footer */
     .footer-container{
         padding-left: 30px;
+    }
+    .footer-nav-container{
+        display: none;
     }
 }
