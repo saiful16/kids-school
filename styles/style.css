@@ -22,7 +22,8 @@
 }
 
 header,
-main {
+.curriculum-section-container,
+.our-stories-section-container {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -139,8 +140,7 @@ main {
 
 /* curriculum section container */
 .curriculum-section {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding: 60px 0;
     background: url(../assets/bg.png);
 }
 
@@ -217,4 +217,101 @@ main {
     height: 60px;
     border: none;
     margin-right: 10px;
+}
+
+/* stories section styles  */
+.our-stories-section {
+    padding: 60px 0;
+    background: url(../assets/bg.png),
+        linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+        /* text-align: center; */
+}
+.s-b-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories-sectioin-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#sories-card-7,
+#sories-card-6 {
+    display: none;
+}
+
+.stories-card-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 80px 0;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.stories-card {
+
+    background: rgb(255, 255, 255);
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px 16px;
+    position: relative;
+}
+
+#sories-card-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 540.27px;
+    height: 630.52px;
+}
+
+.color-stories-title {
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stories-content-container {
+    padding-left: 35px;
+    padding-right: 50px;
+}
+
+.stories-description {
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.stories-img img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.stories-button {
+    position: absolute;
+    top: 155px;
+    left: 20px;
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: rgb(60, 216, 232);
+    border: none;
+    padding: 10px;
+}
+
+.story-1-btn {
+    top: 320px;
+}
+
+.stories-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 30px;
 }
