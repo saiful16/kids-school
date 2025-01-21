@@ -23,7 +23,8 @@
 
 header,
 .curriculum-section-container,
-.our-stories-section-container {
+.our-stories-section-container,
+.footer-container {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -224,9 +225,10 @@ header,
     padding: 60px 0;
     background: url(../assets/bg.png),
         linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-        /* text-align: center; */
+    /* text-align: center; */
 }
-.s-b-container{
+
+.s-b-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,4 +316,77 @@ header,
     font-weight: 700;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+/* footer section styles  */
+footer {
+    background-color: rgb(1, 172, 253);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 123px 0px;
+}
+
+.f-l-t-container {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.f-l-t-container img {
+    width: 70.34px;
+    height: 81.65px;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 399.02px;
+}
+
+.footer-nav-container>h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.footer-anchor-container ul {
+    list-style: none;
+}
+
+.footer-anchor-container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: block;
+
+
+}
+
+.foot-nav {
+    margin-bottom: 20px;
+}
+
+.footer-social-section>h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.soical-container{
+    display: flex;
+    gap: 10px;
 }
