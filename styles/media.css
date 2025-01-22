@@ -36,6 +36,9 @@
     .banner-content {
         text-align: center;
     }
+    .banner-img img, .banner-content{
+        padding: 10px;
+    }
 
     /* curriculum section  */
     .curriculum-title {
@@ -158,7 +161,7 @@
     }
 
     .our-stories-section {
-        padding: 0px 0;
+        padding: 0px 0 20px;
     }
 
     .stories-card-container {
